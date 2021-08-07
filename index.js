@@ -61,7 +61,7 @@ async function checkOwns(contractAddress, address, nftId) {
         contractAbi = JSON.parse(abiRequest.data);
     }
     else {
-        contractAbi = require("./default_abi.json").abi;
+        contractAbi = require("./default-abi.json").abi;
     }
     Contract.setProvider("https://mainnet.infura.io/v3/bfa70a4ec6eb4a69bdd3866b685abfeb");
     const contract = new Contract(contractAbi, contractAddress);
