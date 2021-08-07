@@ -1,0 +1,14 @@
+{
+  "name": "validators",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/dastansam/nfts-owner.git",
+  "author": "Dastan <dastanbeksamatov@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "axios": "^0.21.1",
+    "web3": "^1.5.1",
+    "web3-eth-contract": "^1.5.1"
+  }
+}
